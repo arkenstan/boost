@@ -121,6 +121,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &148024914
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 375877098564215331, guid: 869330a1952648f48936c432c0b63b4d,
+        type: 3}
+      propertyPath: m_Name
+      value: Rocket Ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 375877098564215340, guid: 869330a1952648f48936c432c0b63b4d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 375877098564215340, guid: 869330a1952648f48936c432c0b63b4d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 375877098564215340, guid: 869330a1952648f48936c432c0b63b4d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.3065057
+      objectReference: {fileID: 0}
+    - target: {fileID: 375877098564215340, guid: 869330a1952648f48936c432c0b63b4d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 375877098564215340, guid: 869330a1952648f48936c432c0b63b4d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 375877098564215340, guid: 869330a1952648f48936c432c0b63b4d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 375877098564215340, guid: 869330a1952648f48936c432c0b63b4d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 375877098564215340, guid: 869330a1952648f48936c432c0b63b4d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 375877098564215340, guid: 869330a1952648f48936c432c0b63b4d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 375877098564215340, guid: 869330a1952648f48936c432c0b63b4d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 375877098564215340, guid: 869330a1952648f48936c432c0b63b4d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 869330a1952648f48936c432c0b63b4d, type: 3}
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 4508848974917481546, guid: 96288494ac5ccc6269c892149298983c,
@@ -207,6 +276,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Directional Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508848974917481546, guid: 96288494ac5ccc6269c892149298983c,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508848974917481546, guid: 96288494ac5ccc6269c892149298983c,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508848974917481546, guid: 96288494ac5ccc6269c892149298983c,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4508848974917481547, guid: 96288494ac5ccc6269c892149298983c,
         type: 3}
