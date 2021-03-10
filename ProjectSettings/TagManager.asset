@@ -6,6 +6,7 @@ TagManager:
   tags:
   - friendly
   - dead
+  - finish
   layers:
   - Default
   - TransparentFX
