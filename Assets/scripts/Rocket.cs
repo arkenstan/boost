@@ -118,7 +118,7 @@ public class Rocket : MonoBehaviour
 
   private void ProcessRotate()
   {
-    rigidBody.freezeRotation = true;
+    rigidBody.angularVelocity = Vector3.zero;
     float rotationSpeed = rcsThrust * Time.deltaTime;
     if (Input.GetKey(KeyCode.A))
     {
@@ -128,7 +128,6 @@ public class Rocket : MonoBehaviour
     {
       transform.Rotate(-Vector3.forward * rotationSpeed);
     }
-    rigidBody.freezeRotation = false;
   }
 
   private void ProcessThrust()
